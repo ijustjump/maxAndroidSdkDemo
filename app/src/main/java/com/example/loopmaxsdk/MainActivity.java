@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         });
         button7.setOnClickListener(v -> loopMax.getPower());
         button8.setOnClickListener(v -> loopMax.getCount());
-        button9.setOnClickListener(v -> loopMax.startJumpLimitTime(30));
+        button9.setOnClickListener(v -> loopMax.startJumpLimitTime(180));
         button10.setOnClickListener(v -> loopMax.startJumpLimitCount(100));
         button11.setOnClickListener(v -> loopMax.stopJump());
     }
